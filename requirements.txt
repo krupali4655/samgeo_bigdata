@@ -1,34 +1,9 @@
-# Core libraries
 streamlit
-fastapi
-uvicorn
-
-# HTTP and File Handling
-requests
-Pillow
-
-# Machine learning + segmentation
-torch
-
-# SAMGeo-related
 samgeo
-segment-geospatial
-
-git+https://github.com/opengeos/samgeo.git@main
-
-
-
-# Geospatial handling
-rasterio
-
-# System monitoring
-psutil
-
-# Optional (if needed for interactive maps or extra processing)
 leafmap
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
 
-# For async backend (ensure proper async I/O)
-aiofiles
-
-# For deployment support (not mandatory for Cloud, but good to have)
-python-multipart
+#for cpu
+torch==2.5.1
+torchvision==0.20.1
