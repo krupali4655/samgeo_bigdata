@@ -14,7 +14,8 @@ torch
 samgeo
 segment-geospatial
 
-git+https://github.com/opengeos/samgeo.git
+git+https://github.com/opengeos/samgeo.git@main
+
 
 
 # Geospatial handling
