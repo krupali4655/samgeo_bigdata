@@ -1,0 +1,30 @@
+# Core libraries
+streamlit
+fastapi
+uvicorn
+
+# HTTP and File Handling
+requests
+Pillow
+
+# Machine learning + segmentation
+torch
+
+# SAMGeo-related
+samgeo
+segment-geospatial
+
+# Geospatial handling
+rasterio
+
+# System monitoring
+psutil
+
+# Optional (if needed for interactive maps or extra processing)
+leafmap
+
+# For async backend (ensure proper async I/O)
+aiofiles
+
+# For deployment support (not mandatory for Cloud, but good to have)
+python-multipart
